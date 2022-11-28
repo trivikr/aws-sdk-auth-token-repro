@@ -1,0 +1,36 @@
+{
+  "name": "aws-sdk-auth-token-repro",
+  "version": "0.0.1",
+  "description": "Tests npm ping on AWS CodeBuild",
+  "scripts": {
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/node": "16",
+    "aws-cdk": "2.50.0",
+    "esbuild": "0.15.12",
+    "esbuild-runner": "2.2.2",
+    "typescript": "4.8.4"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.50.0",
+    "constructs": "10.1.146"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trivikr/aws-sdk-auth-token-repro.git"
+  },
+  "keywords": [
+    "aws",
+    "codebuild",
+    "npm",
+    "ping"
+  ],
+  "author": "Kamat, Trivikram",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trivikr/aws-sdk-auth-token-repro/issues"
+  },
+  "homepage": "https://github.com/trivikr/aws-sdk-auth-token-repro#readme",
+  "packageManager": "yarn@3.2.4"
+}
